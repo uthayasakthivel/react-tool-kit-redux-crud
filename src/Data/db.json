@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Uthaya",
+      "email": "uthayasakthivel78@gmail.com",
+      "address": "9/117,middle st, kelaiyapillaiyoor,tenkasi",
+      "phone": "+91 9445248526"
+    },
+    {
+      "id": 2,
+      "name": "Victoria",
+      "email": "victoria78@gmail.com",
+      "address": "70,Bangla street, arunachalampatti",
+      "phone": "+91 9345647345"
+    }
+  ]
+}

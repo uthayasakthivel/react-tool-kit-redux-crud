@@ -3,13 +3,36 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import "react-toastify/dist/ReactToastify.css"
+import { Provider } from "react-redux"
+import { store } from "./Redux/Store.js"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import AddEmployee from "./Components/AddEmployee.js"
+import UpdateEmployee from "./Components/UpdateEmployee.js"
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/add-employee",
+    element: <AddEmployee />,
+  },
+  {
+    path: "/update-employee/:id",
+    element: <UpdateEmployee />,
+  },
+])
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   </React.StrictMode>
-);
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
