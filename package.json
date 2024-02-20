@@ -1,8 +1,8 @@
 {
   "name": "reduxcrud",
+  "homepage": "https://uthayasakthivel.github.io/react-tool-kit-redux-crud/",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://github.io.uthayasakthivel/react-tool-kit-redux-crud",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.16.5",
