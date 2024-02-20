@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-tool-kit-redux-crud/static/css/main.7a197f45.css",
+    "main.js": "/react-tool-kit-redux-crud/static/js/main.182ebdce.js",
+    "static/js/453.d5782495.chunk.js": "/react-tool-kit-redux-crud/static/js/453.d5782495.chunk.js",
+    "index.html": "/react-tool-kit-redux-crud/index.html",
+    "main.7a197f45.css.map": "/react-tool-kit-redux-crud/static/css/main.7a197f45.css.map",
+    "main.182ebdce.js.map": "/react-tool-kit-redux-crud/static/js/main.182ebdce.js.map",
+    "453.d5782495.chunk.js.map": "/react-tool-kit-redux-crud/static/js/453.d5782495.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a197f45.css",
+    "static/js/main.182ebdce.js"
+  ]
+}
